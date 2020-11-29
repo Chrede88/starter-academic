@@ -2,6 +2,20 @@
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
+#
+#   All parameters avaliable to each menu item
+#  [[main]]
+#   id = "" # important if name is left blank
+#   name = "" # title displayed is {{ .Pre }}{{ .Name }}{{ .Post }}
+#   pre = "" # intented to add HTML like icons. Leave blank if no extra HTML is needed.
+#   post = "" # intented to add HTML like icons. Leave blank if no extra HTML is needed.
+#   url = "" # Link URL.
+#   weight = 10 # Defines the order the menu items are displayed.
+#   [main.params]
+#    tooltip = "" # Add tooltip to menu item. Not supported for dropdown items.
+#    tooltip_placement = "" # Tooltip placement. Pick top, bottom, left or right. Defaults to bottom.
+#
+#   Use [[main_right]] to add right jusified menu items when standard items are left jusified.
 
 [[main]]
   name = "Home"
