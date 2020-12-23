@@ -13,7 +13,7 @@
 #   weight = 10 # Defines the order the menu items are displayed.
 #   [main.params]
 #    tooltip = "" # Add tooltip to menu item. Not supported for dropdown items.
-#    tooltip_placement = "" # Tooltip placement. Pick top, bottom, left or right. Defaults to bottom.
+#    tooltip_placement = "" # Tooltip placement. Pick bottom, left or right. Defaults to bottom.
 #
 #   Use [[main_right]] to add right jusified menu items when standard items are left jusified.
 
