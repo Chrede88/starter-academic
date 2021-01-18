@@ -42,34 +42,34 @@ social:
   icon_pack: fas
   link: '/#contact'  # For a direct email link, use "mailto:test@example.org".
   display:
-    navbar: true
+    header: true
     footer: true
-    about_widget: false
+    person: true
 
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/GeorgeCushen
   label: tooltip
   display:
-    navbar: true
+    header: true
     footer: true
-    about_widget: true
+    person: true
 
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   label: label
   display:
-    navbar: true
+    header: true
     footer: true
 
 - icon: github
   icon_pack: fab
   link: https://github.com/gcushen
   display:
-    navbar: true
+    header: true
     footer: true
-    about_widget: false
+    person: true
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
